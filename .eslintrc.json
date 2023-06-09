@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "extends": [
+    "./node_modules/gts/",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": 1,
+    "prettier/prettier": 2
+  },
+  "env": {
+    "node": true,
+    "jest": true
+  }
+}
